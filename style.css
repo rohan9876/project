@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/********************* logo ans image ********************/
+.logoimg {
+  border-radius: 100%;
+  background-color: red;
+  height: 60px;
+  width: 60px;
+  margin: 3px 6px;
+}
+
+#logo{
+  margin: 10px 34px;
+}
+/******************* Navigation Bar *******************/
+#navbar{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+
+}
+
+/******************* List Styling ***********************/
+#navbar ul{
+  display: flex;
+  background-color:
+}
+
+#navbar ul li{
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 10px 10px;
+  padding-left: 50px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/****************BUTTON*********************************/
+.button{
+  margin-left: 150px;
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #055D43;
+  cursor: pointer;
+}
+
+/********************* 2nd page *****************************/
+/* #home {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding: 3px 150px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#home::before{
+  content: "";
+  position: absolute;
+  background-image: url("../image.jpg");
+  height: 600px;
+  z-index: -1;
+  opacity: 0.80;
+  width: 1400px;
+}
+
+#home h1{
+  color: white;
+  text-align: center;
+  font-size: 3.8rem;
+}
+
+.h.primary{
+  font-size: 4.8rem;
+  padding: 12px;
+}
+  */
+#image3{
+  width: 1350px;
+  height: 500px;
+  margin-top: 13px;
+}
+
+/*#image1{
+  position: absolute;
+  height: 35px;
+  margin-top: 90px;
+}
+
+#left{
+  position: absolute;
+  margin-left: 4.3em;
+  color: white;
+  margin-block-start: 11em;
+  font-size: 2em;
+}
+
+#right{
+  position: absolute;
+  margin-left: 4.3em;
+  color: white;
+  margin-block-start: 11em;
+  font-size: 2em;
+}
+
+#iamge2{
+   width: 61px;
+   height: 38px;
+   position: absolute;
+   margin-left: 45px;
+   margin-top: 35px;
+}
+*/
+h1.content{
+  position: absolute;
+  color: white;
+  margin-left: 5em;
+  margin-top: 6.3em;
+  font-size: 37px;
+  font-family: cursive;
+}
+
+h2.content{
+  position: absolute;
+  color: white;
+  margin-left: 189px;
+  margin-top: 322px;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+h3.content{
+  position: absolute;
+  color: white;
+  margin-left: 189px;
+  margin-top: 365px;
+  font-size: 16px;
+  font-family: cursive;
+}
+.donate_now{
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 29em;
+  margin-left: 12em;
+  color: white;
+  padding: 9px;
+  text-decoration: none;
+
+}
+/*.learn{
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 29em;
+  margin-left: 12em;
+  color: white;
+  padding: 9px;
+  text-decoration: none;
+
+}  */
+
+.volunter{
+  width: 80%;
+  margin-top: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.head{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.p1{
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row{
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.row ul{
+  display: flex;
+  background-color:
+}
+
+.first{
+  height: 100px;
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.second{
+  height: 300px;
+  width: 270px;
+  margin-right: 0px;
+  margin-left: 150px;
+}
+.third{
+  height: 100px;
+  width: 150px;
+  margin-left: 150px;
+  margin-right: 0px;
+}
+.forth{
+  height: 100px;
+  width: 150px;
+  margin-left: 150px;
+}
